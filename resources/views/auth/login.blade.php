@@ -37,6 +37,13 @@
         <div>
             <button type="submit" class="btn btn-lg btn-primary btn-block">Login</button>
         </div>
+        <br />
+        <div style="color: red; padding-top:20px;">
+            @if($errors->has())
+                @foreach ($errors->all() as $error)
+                    <div>{{ $error }}</div>
+                @endforeach
+            @endif
+        </div>
     </form>
-
 @endsection
