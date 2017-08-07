@@ -1,4 +1,4 @@
-# Bloggy - blog assignment
+# Bloggy - simple blog project
 
 # Get it working (after cloning)
 - composer install
